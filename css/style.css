@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;800&family=Poppins:ital,wght@0,400;1,200;1,700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*header*/
+header {
+    background-color: #a00000;
+    grid-area: header;
+    height: 100%;
+}
+header img {
+    height: 9.375rem;
+    width: 9.375rem;
+    padding: .3125rem;
+}
+ul{
+    list-style: none;
+    padding: .625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+}
+ul a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    padding: .625rem;
+}
+/* main */
+main {
+    display: grid;
+    grid-area: main;
+}
+.paginaPrincipal {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.863);
+    background-color: solid #9d9e9e11 ;
+    padding: 1.25rem 3.125rem;
+    border: #9d9e9e11 1.25rem;
+    border-radius: 3.125rem;
+    margin-top: 6.25rem;
+}
+.boton {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.paginaPrincipal h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.875rem;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3.125rem;
+}
+.paginaPrincipal h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    color: #a00000;
+    font-family: 'Barlow', sans-serif;
+}
+
+.paginaPrincipal h3 {
+    font-size: 1.875rem;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.aTodoElPais {
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    color: #0000009c;
+    margin: 2.5rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    text-indent: .625rem;
+    padding: .625rem;
+}
+.gridIn {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 9.375rem auto 5rem;
+    grid-template-rows: 20% 20% 20% 20% auto 3.125rem;
+    grid-template-areas: 
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header footer footer"
+    ;
+}
+.nosotros1 h1{
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    margin:  1.25rem 0rem ;
+}
+.nosotros1 p {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 1.5625rem 0rem;
+}
+.misionVisionValores {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.misionVisionValores div img{
+    height: 5.625rem;
+    width:5.625rem;
+    border-radius: 50%;
+    box-shadow: .625rem .625rem .9375rem #d4d6d679;
+}
+.misionVisionValores div p {
+    width: 18.75rem;
+    height: 18.75rem;
+    font-size: 1rem;
+    text-align: left;
+}
+.misionVisionValores div h2 {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.gridNosotros {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 9.375remn auto;
+    grid-template-rows: 20% 20% 20% 20%  auto 3.125rem;
+    grid-template-areas: 
+    "header main"
+    "header main"
+    "header main"
+    "header main"
+    "header main"
+    "header footer"
+    ;
+}
+
+.serUno h1 {
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    margin: 1.25rem 0rem;
+}
+.serUno p {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 1.25rem 0rem;
+}
+.servicios img {
+    height: 9.375rem;
+    width: 9.375rem;
+    margin: .9375rem .3125rem;
+}
+.servicios h2 {
+    height: 100%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 1.875rem .3125rem;
+}
+.servicios p {
+    height: 6.25rem;
+    width: 100%;
+    font-size: .875rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: .9375rem .3125rem;
+}
+.serviii {
+    display: flex;
+    height: 13.75rem;
+    justify-content: center;
+    background-color: #D4D6D6;
+    border: white solid 1.25rem;
+    border-radius: 2.1875rem;
+}
+.serTres {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #0000006b;
+    margin: 2.5rem 0rem;
+    justify-self: center;
+}
+.gridServi {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 9.375rem auto ;
+    grid-template-rows: 20% 20% 20% 20% auto 3.125rem;
+    grid-template-areas: 
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header footer footer"
+    ;
+    row-gap: 1.25rem;
+}
+.flota h1 {
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    margin: 1.25rem 0rem;
+}
+.flota p {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 1.25rem 0rem;
+}
+.flota h2 {
+    height: 100%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-size: 1.5625rem;
+    margin: 1.875rem .3125rem;
+}
+.flota div img {
+    height: 12.5rem;
+    width: 12.5rem;
+    padding: .1875rem;
+    border: .1875rem solid #D4D6D6;
+    border-radius: .1875rem;
+    margin: .625rem
+}
+.laFlota {
+    display: flex;
+    overflow-x: scroll;
+}
+.gridLogis {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 9.375rem auto ;
+    grid-template-rows: 20% 20% 20% 20% auto 3.125rem;
+    grid-template-areas: 
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header footer footer"
+    ;
+}
+.contacH1 {
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    margin: 1.25rem 0rem;
+    grid-area: contactanos;
+}
+.telContacto {
+    grid-area: tels;
+    display: flex;
+    margin: 5rem;
+}
+.telContacto  img {
+    height: 3.125rem;
+    width: 3.125rem;
+    margin-left: 2.5rem;
+}
+.telContacto h2 {
+    font-family: 'Barlow', sans-serif;
+    height: 3.125rem;
+    width: 12.5rem;
+    margin-left: 2.5rem;
+}
+.telContacto p {
+    font-family: 'Poppins', sans-serif;
+}
+
+fieldset {
+    background-color: #c3c9c959;
+    height: 25rem;
+    width: 15.625rem;
+    margin: 1.25rem;
+    border: 3px solid #c3c9c959;
+    border-radius: .3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .9375rem;
+}
+.formulario {
+    grid-area: formulario;
+}
+.formulario legend {
+font-size: 1rem;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+.mapa {
+    grid-area: mapa;
+}
+.mapa iframe {
+    width: 100%;
+    height: 12.5rem;
+}
+.mapa p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+aside {
+    grid-area: aside;
+    height: auto;
+    width: auto;
+}
+.redes {
+    grid-area: redes;
+}
+.redes img {
+    height: 6.25rem;
+    width: 6.25rem;
+    margin: 2.5rem 1.25rem 0rem 2.5rem;
+}
+.redes figcaption {
+    font-size: .875rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0rem .625rem;
+    color: #00000071;
+}
+
+.botonEnviar {
+    height: 3.125rem;
+    width: 5.625rem;
+    padding: 5px;
+    margin: .3125rem;
+    border: #9d9e9e;
+}
+.maincontac {
+    display: grid;
+}
+.gridContac {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 9.375rem auto .625rem ;
+    grid-template-rows: 20% 20% 20% 20% auto 3.125rem;
+    grid-template-areas: 
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header main main"
+    "header footer footer"
+    ;
+} 
+.maincontac {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows: 5rem auto auto auto ;
+    grid-template-areas:
+    "contactanos contactanos contactanos contactanos"
+    "tels tels tels tels"
+    "redes redes formulario formulario"
+    "mapa mapa mapa mapa";
+}
+/* footer */
+footer {
+    background: #000000ab;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+}
+footer h3 {
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: 'Barlow', sans-serif;
+    padding: .625rem;
+    color: #000000;
+}
+footer img {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+@media (max-width: 1024px){
+
+}
+
+/**@media (max-width: 768px){
+    heder {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 320px) {
+
+}**/
